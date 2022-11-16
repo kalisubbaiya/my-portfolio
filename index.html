@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>portfolio</title>
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.1/font/bootstrap-icons.css">
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+		<link href="https://fonts.googleapis.com/css2?family=Merienda+One&display=swap" rel="stylesheet">
+		<style>
+			header{
+			}
+			nav{
+				font-family: 'Merienda One', cursive;
+				font-size:28px;
+				z-index:1;
+			}
+			.home{
+				height:85vh;
+			}
+			.pink{
+				background-color:#ffc0cb59;
+				padding-top:60px;
+			}
+			.pink i{
+				color:#9593ef;
+			}
+			.progress{
+				margin-bottom:1rem;
+			}
+			section{
+				padding:60px 0px;
+				overflow:hidden;
+			}
+			.overlay{
+				width:100%;
+				min-height:70vh;
+				display:flex;
+				flex-direction:column;
+				justify-content:center;
+				align-items:center;
+			}
+			.abt-img{
+				background-color:#a4b77ed1;
+				border-radius:25px 0px 25px 0px ;
+			}
+			.abt-img img{
+				border-radius:25px 0px 25px 0px ;
+			}
+			.abt-cont{
+				background-color: #c7f7c775;
+				border-radius: 25px 0px 25px 0px;
+			}
+			.round{
+				width:50px;
+				height:50px;
+				background:#fff;
+				border-radius:50%;
+				border:5ps solid green;
+				outline:1px solid blue;
+				outline-offset:20px;
+			}
+			a{
+				text-decoration:none;
+			}
+			.address{
+				background-color:#f0f9fd8f;
+			}
+			.hire{
+				background-color:#dcf3fda6;
+			}
+			.r-circle-1{
+				stroke-dasharray:280;
+			}
+			.r-circle-2{
+				stroke-dasharray:260;
+			}
+			.r-circle-3{
+				stroke-dasharray:240;
+			}
+			.svg-circle{
+				transform:rotate(260deg);
+			}
+			#skills{
+				background-color:#87ceeb61;
+			}
+		</style>
+	</head>
+	<body>
+		<header>
+			<nav class="navbar navbar-expand-lg navbar-light position-fixed w-100 bg-white">
+				<div class="container-fluid">
+					<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
+						<div class="navbar-nav">
+							<a class="nav-link active" aria-current="page" href="#about">ABOUT</a>
+							<a class="nav-link" href="#skills">SKILLS</a>
+							<a class="nav-link" href="#education">EDUCATION</a>
+							<a class="nav-link" href="#work">WORK</a>
+							<a class="nav-link" href="#contact">CONTACT</a>
+						</div>
+					</div>
+				</div>
+			</nav>
+		</header>
+		<section class="home">
+			<div class="container-fluid">
+				<div class="row pink ">
+					<div class="col-12 col-sm-4 col-md-5">
+					<div class="overlay">
+						<h1 class="text-uppercase">kaliraj subbaiyakani</h1>
+						<p class="text-uppercase fst-italic">front-end-developer</p>
+						<a href="upload/cv.pdf" target="_blank" download>
+							<button type="button" class="btn btn-outline-primary"><i class="bi bi-download me-2 fs-4"></i>Download CV</button>
+						</a>
+						<div class="mt-5">
+							<a href="tel:7502866620" target="_blank"> <i class="bi bi-phone me-3 fs-4"></i> </a>
+							<a href="mailto:kalisdvk96@gmail.com" target="_blank"> <i class="bi bi-envelope me-3 fs-2"></i> </a>
+							<a href="https://github.com/kalisubbaiya" target="_blank"> <i class="bi bi-github me-3 fs-2"> </i> </a>
+							<a href="https://www.linkedin.com/in/kaliraj-subbaiyakani-1a310124b/" target="_blank"> <i class="bi bi-linkedin me-3 fs-2"></i> </a>
+							<a href="https://wa.me/qr/YPFZIP6N6NW2G1" target="_blank"> <i class="bi bi-whatsapp me-3 fs-2"></i> </a>
+						</div>
+					</div>
+					</div>
+					<div class="col-12 col-sm-8 col-md-7">
+						<img src="images/kaliraj-1.jpg" class="rounded-3 mx-auto d-flex w-75 light" alt="no-image">
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="about" class="bg-light">
+			<div class="container">
+				<h2 class="text-center mb-4">ABOUT</h2>
+				<div class="row" id="about">
+					<div class="col-12 col-sm-4 col-md-4 d-flex align-items-center abt-img">
+						<img src="images/kaliraj.jpg" class="mx-auto w-50" alt="no-image">
+					</div>
+					<div class="col-12 col-sm-8 col-md-8 p-4 abt-cont">
+						<h3 class="mb-3 text-success">OBJECTIVE</h3>
+						<p class="fs-5">Looking to establish a career in the field of Information Technology, I wish to work in a growth-oriented company and 
+						contribute to the development of the organization while upgrading my skill set and knowledge. Looking for a challenging role in a
+						reputable organization to utilize my technical, database, and management skills for the growth of the organization as well as to
+						enhance my knowledge about new and emerging trends in the IT sector.
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="skills">
+			<div class="container-fluid">
+				<div class="section-title">
+					<h2 class="d-flex justify-content-center">SKILLS</h2>
+				</div>
+				<div class="row">
+					<div class="col-12 col-sm-12 col-md-4 mt-3">
+						<div class="skill-card">
+							<div class="text-center">
+								<h5>HTML</h5>
+							</div>
+							<div class="skill-circle d-flex justify-content-center">
+								<svg width="150px" height="150px" class="svg-circle">
+									<circle cx="75" cy="75" r="50" stroke="#f9f9f9" fill="none" stroke-width="20"></circle>
+									<circle cx="75" cy="75" r="50" stroke="#3cd715c9" fill="none" stroke-width="20" class="r-circle-1"></circle>
+									<text text-anchor="middle" x="5" y="10" transform="translate(75,75) rotate(100)" style="font-size:20px">90%</text>
+								</svg>
+							</div>
+						</div>
+					</div>
+					<div class="col-12 col-sm-12 col-md-4 mt-3">
+						<div class="skill-card">
+							<div class="text-center">
+								<h5>CSS</h5>
+							</div>
+							<div class="skill-circle d-flex justify-content-center">
+								<svg width="150px" height="150px" class="svg-circle">
+									<circle cx="75" cy="75" r="50" stroke="#f9f9f9" fill="none" stroke-width="20"></circle>
+									<circle cx="75" cy="75" r="50" stroke="#ffff00d4" fill="none" stroke-width="20" class="r-circle-2"></circle>
+									<text text-anchor="middle" x="5" y="10" transform="translate(75,75) rotate(100)" style="font-size:20px">80%</text>
+								</svg>
+							</div>
+						</div>
+					</div>
+					<div class="col-12 col-sm-12 col-md-4 mt-3">
+						<div class="skill-card">
+							<div class="text-center">
+								<h5>BOOTSTRAP</h5>
+							</div>
+							<div class="skill-circle d-flex justify-content-center">
+								<svg width="150px" height="150px" class="svg-circle">
+									<circle cx="75" cy="75" r="50" stroke="#f9f9f9" fill="none" stroke-width="20"></circle>
+									<circle cx="75" cy="75" r="50" stroke="#ffff00d4" fill="none" stroke-width="20" class="r-circle-2"></circle>
+									<text text-anchor="middle" x="5" y="10" transform="translate(75,75) rotate(100)" style="font-size:20px">80%</text>
+								</svg>
+							</div>
+						</div>
+					</div>
+					<div class="col-12 col-sm-12 col-md-4 mt-3">
+						<div class="skill-card">
+							<div class="text-center">
+								<h5>JAVASCRIPT</h5>
+							</div>
+							<div class="skill-circle d-flex justify-content-center">
+								<svg width="150px" height="150px" class="svg-circle">
+									<circle cx="75" cy="75" r="50" stroke="#f9f9f9" fill="none" stroke-width="20"></circle>
+									<circle cx="75" cy="75" r="50" stroke="#ffff006b" fill="none" stroke-width="20" class="r-circle-3"></circle>
+									<text text-anchor="middle" x="5" y="10" transform="translate(75,75) rotate(100)" style="font-size:20px">75%</text>
+								</svg>
+							</div>
+						</div>
+					</div>
+					<div class="col-12 col-sm-12 col-md-4 mt-3">
+						<div class="skill-card">
+							<div class="text-center">
+								<h5>GIT-HUB</h5>
+							</div>
+							<div class="skill-circle d-flex justify-content-center">
+								<svg width="150px" height="150px" class="svg-circle">
+									<circle cx="75" cy="75" r="50" stroke="#f9f9f9" fill="none" stroke-width="20"></circle>
+									<circle cx="75" cy="75" r="50" stroke="#ffff00d4" fill="none" stroke-width="20" class="r-circle-2"></circle>
+									<text text-anchor="middle" x="5" y="10" transform="translate(75,75) rotate(100)" style="font-size:20px">80%</text>
+								</svg>
+							</div>
+						</div>
+					</div>
+					<div class="col-12 col-sm-12 col-md-4 mt-3">
+						<div class="skill-card">
+							<div class="text-center">
+								<h5>REACT</h5>
+							</div>
+							<div class="skill-circle d-flex justify-content-center">
+								<svg width="150px" height="150px" class="svg-circle">
+									<circle cx="75" cy="75" r="50" stroke="#f9f9f9" fill="none" stroke-width="20"></circle>
+									<circle cx="75" cy="75" r="50" stroke="#ffff006b" fill="none" stroke-width="20" class="r-circle-3"></circle>
+									<text text-anchor="middle" x="5" y="10" transform="translate(75,75) rotate(100)" style="font-size:20px">75%</text>
+								</svg>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="education">
+			<div class="container-fluid">
+				<div class="row p-4" id="education">
+					<h2 class="text-center mb-4">EDUCATION</h2>
+					<div class="col-12 col-sm-12 col-md-12 p-3">
+						<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+							<div class="carousel-indicators">
+								<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+								<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+							</div>
+							<div class="carousel-inner">
+								<div class="carousel-item active">
+									<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1tr0bBGEIPw0VxbQ7SOvnspIw8nxNYvovmw&usqp=CAU" class="d-block w-100" height="400px" alt="college">
+									<div class="carousel-caption d-none d-md-block">
+										<h5>UNIVERSITY COLLEGE OF ENGINEERING, PANRUTI.</h5>
+										<p>B.E (Mechanical Engineering)</p>
+										<p>2013 - 2017</p>
+									</div>
+								</div>
+								<div class="carousel-item">
+								  <img src="https://content.jdmagicbox.com/comp/chennai/n3/044pxx44.xx44.211124070052.k5n3/catalogue/pnet-school-ambattur-ot-bus-terminus-ambattur-chennai-schools-tmh1w1wiec.jpg?clr=" class="d-block w-100" height="400px" alt="school">
+								  <div class="carousel-caption d-none d-md-block">
+									<h5>H N U C Hr Sec School</h5>
+									<p>Bio-Maths (physics, chemistry, maths, biology)</p>
+									<p>2013</p>
+								  </div>
+								</div>
+							</div>
+							<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+								<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+								<span class="visually-hidden">Previous</span>
+							</button>
+							<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+								<span class="carousel-control-next-icon" aria-hidden="true"></span>
+								<span class="visually-hidden">Next</span>
+							</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="work">
+			<div class="row p-4 bg-light">
+				<h2 class="text-center mb-4">WORK</h2>
+				<div class="col-12 col-sm-12 col-md-6">
+					<a href="https://github.com/kalisubbaiya/portfolio-1.git" target="_blank">
+						<img src="images/port.png" class="rounded border border-1 w-100" alt="no-image">
+					</a>
+				</div>
+				<div class="col-12 col-sm-12 col-md-6">
+					<a href="https://github.com/kalisubbaiya/portfolioi-2.git" target="_blank">
+						<img src="images/butterfly.png" class="rounded border border-1 w-100" alt="no-image">
+					</a>
+				</div>
+			</div>
+		</section>
+		<section>
+			<div class="row" id="contact">
+				<h2 class="text-center mb-4">CONTACT</h2>
+				<div class="col-12 col-sm-12 col-md-6 d-flex justify-content-center p-4 address">
+					<div>
+						<h5 class="fs-1 mb-4">Address</h5>
+						<p class="fs-4">88A,Sandrore madathu street, <br>Chinthamani, Puliyangudi, Tenkasi,<br> Tamilnadu, India</p>
+						<p class="fs-4"><a href="tel:7502866620" target="_blank"> <i class="bi bi-phone me-3 fs-4"></i> </a> +91 7502866620</p>
+					</div>
+				</div>
+				<div class="col-12 col-sm-12 col-md-6 p-4 hire">
+					<h5 class="fs-4 fw-bold mb-4 text-center">HIRE ME</h5>
+					<div class="row">
+						<div class="col-12 col-sm-6 col-md-6 mb-3">
+							<p class="fs-4"><a href="mailto:kalisdvk96@gmail.com" target="_blank"> <i class="bi bi-envelope me-3 fs-2"></i> </a> E-mail</p>
+						</div>
+						<div class="col-12 col-sm-6 col-md-6 mb-3">
+							<p class="fs-4"><a href="https://github.com/kalisubbaiya" target="_blank"> <i class="bi bi-github me-3 fs-2"> </i> </a>Git-Hub</p>
+						</div>
+						<div class="col-12 col-sm-6 col-md-6 mb-3">
+							<p class="fs-4"><a href="https://www.linkedin.com/in/kaliraj-subbaiyakani-1a310124b/" target="_blank"> <i class="bi bi-linkedin me-3 fs-2"></i> </a> Linked-In</p>
+						</div>
+						<div class="col-12 col-sm-6 col-md-6 mb-3">
+							<p class="fs-4"><a href="https://wa.me/qr/YPFZIP6N6NW2G1" target="_blank"> <i class="bi bi-whatsapp me-3 fs-2"></i> </a> Whatsapp</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+	</body>
+</html>
