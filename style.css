@@ -1,0 +1,143 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+nav{
+	font-family: 'Merienda One', cursive;
+	font-size:28px;
+	z-index:1;
+}
+.home{
+	height:85vh;
+}
+a button{
+	color:#fff !important;
+	background:#81d381 !important;
+}
+.pink{
+	background-color:#ffc0cb59;
+	padding-top:60px;
+}
+i{
+	color:#81d381;
+}
+.progress{
+	margin-bottom:1rem;
+}
+section{
+	padding:60px 0px;
+	overflow:hidden;
+}
+.overlay{
+	width:100%;
+	min-height:70vh;
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+}
+.abt-img{
+	background-color:#a4b77ed1;
+	border-radius:25px 0px 25px 0px ;
+}
+.abt-img img{
+	border-radius:25px 0px 25px 0px ;
+}
+.abt-cont{
+	background-color: #c7f7c775;
+	border-radius: 25px 0px 25px 0px;
+}
+.round{
+	width:50px;
+	height:50px;
+	background:#fff;
+	border-radius:50%;
+	border:5ps solid green;
+	outline:1px solid blue;
+	outline-offset:20px;
+}
+a{
+	text-decoration:none;
+}
+.r-circle-1{
+	stroke-dasharray:280;
+}
+.r-circle-2{
+	stroke-dasharray:260;
+}
+.r-circle-3{
+	stroke-dasharray:240;
+}
+.svg-circle{
+	transform:rotate(260deg);
+}
+#skills{
+	background-color:#ffc0cb59;
+}
+#contact{
+	background:#ffc0cb26;
+}
+footer{
+	background:#ffc0cb59;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+.back-to-top {
+	position: fixed;
+	right: 15px;
+	bottom: 15px;
+	background: #81d381;
+	width: 40px;
+	height: 40px;
+	border-radius: 4px;
+	transition: all 0.5s;
+}
+.back-to-top i {
+	font-size: 28px;
+	color: #fff;
+	line-height: 0;
+}
+.port-1{
+	position: absolute;
+    top: 0px;
+    left: 0px;
+    text-align: center;
+    background-color: #000;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    line-height: 1.8;
+    opacity: 0;
+    transition: all 0.3s ease;
+    transform: scale(0.5,0.5);
+}
+.port:hover .port-1{
+	opacity:1;
+	color:#fff;
+	transform:scale(1,1);
+}
+.port-1::before{
+    content: "";
+	position:absolute;
+    width: 48px;
+    height: 48px;
+    top: 15px;
+    left: 15px;
+    border-top: 3px solid #bdc6ca;
+    border-left: 3px solid #bdc6ca;
+}
+.port-1::after{
+    content: "";
+	position:absolute;
+    width: 48px;
+    height: 48px;
+    right: 15px;
+    bottom: 15px;
+    border-right: 3px solid #bdc6ca;
+    border-bottom: 3px solid #bdc6ca;
+}
