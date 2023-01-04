@@ -8,6 +8,9 @@ nav{
 	font-size:28px;
 	z-index:1;
 }
+.navbar-nav a{
+	margin: 0 20px 0 0;
+}
 .home{
 	height:85vh;
 }
@@ -15,9 +18,8 @@ a button{
 	color:#fff !important;
 	background:#81d381 !important;
 }
-.pink{
+#home{
 	background-color:#ffc0cb59;
-	padding-top:60px;
 }
 i{
 	color:#81d381;
@@ -26,16 +28,8 @@ i{
 	margin-bottom:1rem;
 }
 section{
-	padding:60px 0px;
+	padding:74px 0;
 	overflow:hidden;
-}
-.overlay{
-	width:100%;
-	min-height:70vh;
-	display:flex;
-	flex-direction:column;
-	justify-content:center;
-	align-items:center;
 }
 .abt-img{
 	background-color:#a4b77ed1;
@@ -59,6 +53,7 @@ section{
 }
 a{
 	text-decoration:none;
+	color: #000;
 }
 .r-circle-1{
 	stroke-dasharray:280;
@@ -74,6 +69,9 @@ a{
 }
 #skills{
 	background-color:#ffc0cb59;
+}
+#education{
+	padding-bottom: 0;
 }
 #contact{
 	background:#ffc0cb26;
@@ -140,4 +138,20 @@ footer{
     bottom: 15px;
     border-right: 3px solid #bdc6ca;
     border-bottom: 3px solid #bdc6ca;
+}
+.hire a:hover{
+	color: #000;
+}
+@media (min-width:468px){
+	.none{
+		display:none;
+	}
+}
+@media (min-width:1025px){
+	.none{
+		display:flex;
+	}
+	#home{
+		margin: 74px 0 0 0;
+	}
 }
